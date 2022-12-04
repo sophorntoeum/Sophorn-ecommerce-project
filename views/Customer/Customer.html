@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
-    <link rel="stylesheet" href="/Sophorn-ecommerce-project/css/customer.css">
+    <title>Product Customer</title>
+    <link rel="stylesheet" href="css/customer.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     
@@ -14,7 +15,10 @@
         <form action="form">
             <div class="search">
                 <h2 id="logo">SP-Fashion</h2>
-                <input id="searchBtn" class="form-control" type="text" placeholder="Search">
+                <div class="card-header">
+                    <input type="text" placeholder="Search..." id="search">
+                </div>
+
                 <div class="icon-research">
                     <i class="large material-icons"> search</i>
                 </div>
@@ -29,8 +33,8 @@
           <div class="nav-bar">
             <div class="nav-left">
                 <ul>
-                    <li><a href="/Sophorn-ecommerce-project/views/seller.html">Seller</a></li>
-                    <li><a href="/Sophorn-ecommerce-project/project.html">Customer</a></li>
+                    <li><a href="../seller/seller.html">Seller</a></li>
+                    <li><a href="../../project.html">Customer</a></li>
                 </ul>
             </div>
             <div class="nav-left">
@@ -42,459 +46,31 @@
                 </ul>
             </div>
         </div>
-        
     </nav>
-    <div class="text-header">
-        <h2>FASHION Welcome To Our <span>SP</span>-Shop</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quae?Lorem ipsum dolor sit <br> amet consectetur adipisicing elit. Quidem, SP.</p>
+    <div class="container  mt-5">
+        <a href="../../project.html">Customer</a>
     </div>
-    <div class="picturBackground">
-        <img src="../images/fashion_.jpg"Trulli width="100%" height="400">
-    </div>
-
-<!-- ti1 -->
-    <div class="home">
-        <div class="bag">
-            <div class="image">
-                <img src="../images/chanel11-removebg-preview.png" alt="">
+    <div class="container" id="container"></div>
+<!--     
+    <div class="card">
+        <div class="card-header">
+            <input type="text" placeholder="Search...by Rady" id="search">
+        </div>
+        <div class="card-body">
+            <div class="add-box">
+                <input type="text" placeholder="Task name" id="task" autofocus>
+                <select name="" id="priority">
+                    <option value="green">NORMAL</option>
+                    <option value="orange">HIGHT</option>
+                    <option value="red">URGENT</option>
+                </select>
+                <button id="add">Add +</button>
+                <button id="edit" class="hide">Edit</button>
             </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>   
-            </div>
-            <p>CHANEL</p>
-            <p>$1,995</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
+            <div class="card-text">
+                <ul></ul>
             </div>
         </div>
-
-        <div class="bag">
-            <div class="image">
-                <img src="../images/chanel9-removebg-preview.png" alt="">
-            </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-            </div>
-            <p>CHANEL</p>
-            <p>$1,995</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-            </div>
-        </div>
-
-        <div class="bag">
-            <div class="image">
-                <img src="../images/chanel8-removebg-preview.png">
-            </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-            </div>
-            <p>CHANEL</p>
-            <p>$1,995</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-            </div>
-        </div>
-
-        <div class="bag">
-            <div class="image">
-                <img src="../images/chanel7-removebg-preview.png">
-            </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-            </div>
-            <p>CHANEL</p>
-            <p>$1,600</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-            </div>
-        </div>
-    </div>
-<!-- ti2 -->
-    <div class="home">
-        <div class="bag">
-            <div class="image">
-                <img src="../images/chanel2-removebg-preview.png" alt="">
-            </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-            </div>
-            <p>CHANEL</p>
-            <p>$1,995</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-            </div>
-        </div>
-
-        <div class="bag">
-            <div class="image">
-                <img src="../images/chanel5-removebg-preview.png" alt="">
-            </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-            </div>
-            <p>CHANEL</p>
-            <p>$1,995</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-            </div>
-        </div>
-
-        <div class="bag">
-            <div class="image">
-                <img src="../images/chanel_hard-removebg-preview.png">
-            </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-            </div>
-            <p>CHANEL</p>
-            <p>$1,795</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-            </div>
-        </div>
-
-        <div class="bag">
-            <div class="image">
-                <img src="../images/chanel6-removebg-preview.png">
-            </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-            </div>
-            <p>CHANEL</p>
-            <p>$1,600</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-            </div>
-        </div>
-    </div>
-
-    <!-- ti3 -->
-    <div class="home">
-        <div class="bag">
-            <div class="image">
-                <img src="../images/h_orange-removebg-preview.png" alt="">
-            </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-            </div>
-            <p>HERMES</p>
-            <p>$35,950</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-            </div>
-        </div>
-
-        <div class="bag">
-            <div class="image">
-                <img src="../images/h2-removebg-preview.png" alt="">
-            </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-            </div>
-            <p>HERMES</p>
-            <p>$1,995</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-            </div>
-        </div>
-
-        <div class="bag">
-            <div class="image">
-                <img src="../images/h1-removebg-preview.png">
-            </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-            </div>
-            <p>HERMES</p>
-            <p>$1,995</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-            </div>
-        </div>
-
-        <div class="bag">
-            <div class="image">
-                <img src="../images/celen-removebg-preview.png">
-            </div>
-            <div class="product-name"></div>
-            <div class="stars">
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-            </div>
-            <p>CELINE</p>
-            <p>$1,600</p>
-            <div class="product-btn">
-                <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-            </div>
-        </div>
-    </div>
-<!-- ti4 -->
-<div class="home">
-    <div class="bag">
-        <div class="image">
-            <img src="../images/ysl1-removebg-preview.png" alt="">
-        </div>
-        <div class="product-name"></div>
-        <div class="stars">
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star_half</i>
-            <i class="large material-icons">star_half</i>  
-        </div>
-        <p>YSL</p>
-        <p>$35,950</p>
-        <div class="product-btn">
-            <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-        </div>
-    </div>
-
-    <div class="bag">
-        <div class="image">
-            <img src="../images/ysl2-removebg-preview.png" alt="">
-        </div>
-        <div class="product-name"></div>
-        <div class="stars">
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star_half</i>
-            <i class="large material-icons">star_half</i>  
-        </div>
-        <p>YSL</p>
-        <p>$1,995</p>
-        <div class="product-btn">
-            <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-        </div>
-    </div>
-
-    <div class="bag">
-        <div class="image">
-            <img src="../images/ysl3-removebg-preview.png">
-        </div>
-        <div class="product-name"></div>
-        <div class="stars">
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star_half</i>
-            <i class="large material-icons">star_half</i>  
-        </div>
-        <p>YSL</p>
-        <p>$1,995</p>
-        <div class="product-btn">
-            <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-        </div>
-    </div>
-
-    <div class="bag">
-        <div class="image">
-            <img src="../images/ysl5-removebg-preview.png">
-        </div>
-        <div class="product-name"></div>
-        <div class="stars">
-             <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-        </div>
-        <p>YSL</p>
-        <p>$1,600</p>
-        <div class="product-btn">
-            <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-        </div>
-    </div>
-</div>
-<!-- TI5 -->
-<div class="home">
-    <div class="bag">
-        <div class="image">
-            <img src="../images/chanel13-removebg-preview.png" alt="">
-        </div>
-        <div class="product-name"></div>
-        <div class="stars">
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star_half</i>
-            <i class="large material-icons">star_half</i>  
-        </div>
-        <p>CHANEL</p>
-        <p>$35,950</p>
-        <div class="product-btn">
-            <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-        </div>
-    </div>
-
-    <div class="bag">
-        <div class="image">
-            <img src="../images/bagChanel1-removebg-preview.png" alt="">
-        </div>
-        <div class="product-name"></div>
-        <div class="stars">
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star_half</i>
-            <i class="large material-icons">star_half</i>  
-        </div>
-        <p>CHANEL</p>
-        <p>$1,995</p>
-        <div class="product-btn">
-            <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-        </div>
-    </div>
-
-    <div class="bag">
-        <div class="image">
-            <img src="../images/lv1-removebg-preview.png">
-        </div>
-        <div class="product-name"></div>
-        <div class="stars">
-            <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star</i>
-                <i class="large material-icons">star_half</i>
-                <i class="large material-icons">star_half</i>  
-        </div>
-        <p>LOUIS VUITTON</p>
-        <p>$1,995</p>
-        <div class="product-btn">
-            <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-        </div>
-    </div>
-
-    <div class="bag">
-        <div class="image">
-            <img src="../images/LV2jpg-removebg-preview.png">
-        </div>
-        <div class="product-name"></div>
-        <div class="stars">
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star</i>
-            <i class="large material-icons">star_half</i>
-            <i class="large material-icons">star_half</i>  
-        </div>
-        <p>LOUIS VUITTON</p>
-        <p>$470</p>
-        <div class="product-btn">
-            <button class="btn"><a href="pages/product.html">Buy Now</a></button>
-        </div>
-    </div>
-</div>
-
-<footer>
-    <h2>About Us</h2>
-    <div class="footer-card">
-        <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius facilis labore natus culpa, molestias sit animi, -->
-        <!-- <br> dolorem eveniet, nobis vel reprehenderit totam obcaecati quasi libero eos? Delectus libero eum obcaecati.Delectus libero eum obcaecati.</p> -->
-        <div class="footer-card1">
-            <p>Customer Service</p> 
-            <p> Contact Us</p>
-            <p> My Account</p>
-            <p>Shipping</p> 
-            <p>Returns</p> 
-            <p>FAQ</p> 
-            <p>Give us feedback</p> 
-        </div>
-        <div class="footer-card1">
-            <p>Sell With Us</p>
-            <p>How to sell</p> 
-            <p>Submit an item</p>
-            <p>FASHIONPHILE Refresh</p>
-            <p>Designer Directory</p>
-            <p>Consignment</p>
-            <p>Sold items</p>
-        </div>
-        <div class="footer-card1">
-            <p>Shop With Us</p>    
-            <p> Authenticity</p>   
-            <p> Certified</p>   
-            <p> Gift Cards</p>   
-            <p> Personal Shopping</p>   
-            <p> FASHIONPHILE Reserve</p>   
-            <p>Subscribe to newsletter</p>    
-        </div>
-
-            <div class="footer-card1">
-            <p> About Us</p>
-            <p>About</p>
-            <p> Locations</p>
-            <p> Careers</p>
-            <p>Sustainability</p>
-            <p>Influencer Program</p>
-            <p>Partners Program</p>
-            <p>Brand & retail partners</p>
-            <p> Test your skills</p>
-        </div>
-    </div>
-    <div class="footer-card2">
-        <img src="../images/facebook-icon-png-removebg-preview.png">
-        <img src="../../images/Telegram-icon-removebg-preview.png">
-        <img src="../images/ig-removebg-preview.png">
-        <img src="../images/gmail-removebg-preview.png">
-    </div>
-</footer>
+    </div> -->
 </body>
 </html>

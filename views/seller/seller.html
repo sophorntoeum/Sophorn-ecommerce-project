@@ -1,13 +1,13 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
-    <link rel="stylesheet" href="../../css/seller.css">
+    <title>Seller Localstorage</title>
+    <link rel="stylesheet" href="css/seller.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="../js/seller.js" defer></script>
+    <script src="js/seller.js" defer></script>
 </head>
 <body>
     <nav>
@@ -22,9 +22,7 @@
                 <i class="large material-icons"> shopping_cart</i>
             </div>
         </div>
-      
-
-         <div class="nav-bar">
+        <div class="nav-bar">
             <div class="nav-left">
                 <ul>
                     <li><a href="../Customer/Customer.html">Seller</a></li>
@@ -41,66 +39,21 @@
             </div>
         </div>
     </nav>
-
-    <form>  
-        <button>CREATE PRODUCT</button> -->
-
-        <!-- <h2>Create Account</h2> -->
-        <!-- <fieldset>
-            <div class="form-action">
-                <label for="name">Name :</label>
-                <input type="text" placeholder=""><br>
-            </div>
-            <div class="form-action">
-                <label for="price">Price:</label>
-                <input type="number" placeholder="price"> <br>
-            </div>
-            <div class="form-action">
-                <label for="decription">Decription:</label>
-                <input type="text"><br>
-            </div>
-            <div class="form-action">
-                <label for="currency">Currency:</label>
-                <input type="text"><br>
-            </div>
-                <label for="img">image :</label>
-                <input type="file"><br>
-            <div class="form-action"></div>
-        </fieldset> -->
-    <!-- </form> -->
-
-    <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Localstorage</title>
-    <link rel="stylesheet" href="../../css/seller.css">
-    <script src="../seller/seller.js" defer></script>
-</head>
-
-<body>
     <div class="container">
-       <div class="form-add">
-        <form>
-            <input type="text" id="product-name" placeholder="Product Name" required>
-            <button>Add +</button>
-        </form>
-        <a href="../Customer/Customer.html">View customer</a>
-       </div>
-       <div class="table-data"></div>
-    </div>
-    <h1 id="result"></h1>
+        <div class="form-add">
+         <form>
+            <input type="number" id="product-UID" placeholder="Product UID" >
+            <input type="text" id="product-name" placeholder="Product Name" >
+            <input type="number" id="product-price" placeholder="Product Price" >
+            <input type="text" id="product-condition" placeholder="Product Condition" >
+            <input type="text" id="product-currency" placeholder="Product Currency" >
+            <input type="text" id="product-image" placeholder="Upload your image" >
+            <button class="add">Add +</button>
+        </div>
+         </form>
+         <a href="../Customer/Customer.html">View customer</a>
+
+        <div class="table-data"></div>
+     </div>
 </body>
-
 </html>
-
-
-
-</body>
-</html>
-
-
-    

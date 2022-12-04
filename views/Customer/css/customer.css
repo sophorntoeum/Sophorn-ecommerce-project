@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.search {
+    display: flex;
+    align-items: center;
+    background: rgb(61, 60, 60);
+}
+#logo {
+    margin-left: 8%;
+    color: orange;
+    font-size: 4rem;
+    font-family: monospace, sans-serif;
+}
+/* ********************for research****************** */
+.card-header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.card-header input {
+    padding: 13px;
+    box-sizing: border-box;
+    /* outline: none; */
+    /* border:none; */
+}
+
+input {
+    height: 100%;
+    width: 80vh;
+    margin-left: 10%;
+    /* border: 1px solid rgb(200, 198, 198); */
+    border-radius: 5px 5px 5px 5px;
+}
+.form-control {
+    width: 25%;
+}
+i {
+    color: orange;
+}
+.form-icon {
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    color: orange;
+    margin-left: 10%;
+}
+.nav-bar {
+    display: flex;
+    flex: 0.1;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-left ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: 120%;
+}
+.nav-left ul a {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(244, 139, 139);
+}
+.text-header {
+    text-align: center;
+}
+.image img {
+    margin: auto;
+    margin-top: 5px;
+    height: 40vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    flex-basis: 20%;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 7px;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+}
+.mt-5 {
+    margin-top: 100px;
+}
+.container_mt-5{
+    background: rgb(109, 138, 169);
+    margin-top: 20px;
+}
+.title {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.card-body {
+    padding: 10px;
+}
+.qty {
+    background: #000;
+    color: #fff;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.price {
+    background: #b91cc1;
+    color: #fff;
+    width: 50px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+nav {
+    position: sticky;
+    top: 0;
+}
+.search {
+    display: flex;
+    align-items: center;
+    background: rgb(61, 60, 60);
+
+}
+#logo {
+    margin-left: 8%;
+    color: orange;
+    font-size: 4rem;
+    font-family: monospace, sans-serif;
+}
+#searchBtn {
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 1rem;
+    outline: none;
+}
+input {
+    margin-left: 10%;
+}
+.form-control {
+    width: 25%;
+}
+i {
+    color: orange;
+}
+.form-icon {
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    color: orange;
+    margin-left: 10%;
+}
+.nav-bar {
+    display: flex;
+    flex: 0.1;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-left ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: 120%;
+}
+.nav-left ul a {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(244, 139, 139);
+}
+.text-header {
+    text-align: center;
+}
+.image img {
+    margin: auto;
+    margin-top: 5px;
+    height: 40vh;
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+
+    position: sticky;
+}
+.bag {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.bag:hover {
+    border: 1px solid orange;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+footer {
+    background: rgb(190, 166, 166);
+    margin-top: 40px;
+}
+footer h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-card2 img {
+    width: 5%;
+}
+.footer-card2 {
+    background: rgb(214, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picturBackground {
+    padding: 10%;
+    background-image: url(../../assets/images/fashion_.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

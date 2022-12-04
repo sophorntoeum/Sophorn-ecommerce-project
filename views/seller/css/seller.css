@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background: rgb(61, 60, 60);
+}
+#logo {
+  margin-left: 8%;
+  color: orange;
+  font-size: 4rem;
+}
+#searchBtn {
+  padding: 12px;
+  border-radius: 20px;
+  font-size: 1rem;
+  outline: none;
+}
+input {
+  margin-left: 10%;
+}
+.form-control {
+  width: 25%;
+}
+i {
+  color: orange;
+}
+.form-icon {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+  color: orange;
+  margin-left: 10%;
+}
+.nav-bar {
+  display: flex;
+  flex: 0.1;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-left ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  font-size: 120%;
+}
+.nav-left ul a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(244, 139, 139);
+}
+.text-header {
+  text-align: center;
+  color: white;
+}
+.image img {
+  margin: auto;
+  margin-top: 5px;
+  background: #fff;
+  height: 40vh;
+}
+
+/* ==============create container========== */
+.container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.form-add {
+  flex: 1;
+  padding: 10px;
+}
+form{
+  background: rgb(219, 173, 214);
+  border-radius: 10px 10px 10px 10px;
+  padding: 30px;
+}
+input{
+  width:80%;
+}
+.add{
+  border: none;
+  background: rgb(115, 183, 193);
+  width: 82%;
+  margin-left: 40px;
+}
+input, .add ,input{
+  height: 30px;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 20px;
+}
+
+.table-data {
+  flex: 2;
+  padding: 10px;
+  border-left: 1px dotted #ccc;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+tr,
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+th {
+  background: rgb(219, 173, 214);
+  width: 20%;
+}
+
+a {
+  padding: 10px;
+  cursor: pointer;
+}
+#fashion {
+  background: rgb(49, 63, 192);
+}
+.fashion-form {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  display: none;
+}
+
+#fashion-choose input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-left: 0.1%;
+  box-sizing: border-box;
+}
+#fashion-choose select {
+  margin-top: 10px;
+  width: 100%;
+}
+.delete{
+  width: 100%;
+}
+.updat{
+  width: 60%;
+}
+/* 
+#product-image{
+  background: rgb(45, 61, 126);
+} */
+
