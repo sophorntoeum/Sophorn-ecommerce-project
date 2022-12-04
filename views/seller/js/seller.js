@@ -104,7 +104,6 @@ btn.addEventListener('click', (e) => {
     return;
   }
   let productObject = { UID: productUID.value, name: productName.value, price: productPrice.value, condition:   productCondition.value, currency: productCurrency.value, image: productImage.value };
-  // console.log(productObject)
   console.log(productImage.value)
 
   productList.push(productObject);
@@ -116,12 +115,10 @@ btn.addEventListener('click', (e) => {
   productCurrency.value = "";
   productImage.value = "";
   // add the product
-
   addProductToLocalStorage('product-name', JSON.stringify(productList));
   displayProduct();
 })
 document.addEventListener('DOMContentLoaded', () => { displayProduct() })
-// let fashionAdd = document.querySelectorAll('#fashion-choose')
 function removeProduct(event) {
   const products = JSON.parse(localStorage.getItem('product-name'))
   let index = event.target.parentElement.dataset.index;
@@ -141,7 +138,4 @@ function editProduct(event) {
   document.querySelector('#product-currency').value = newProduct.currency;
   document.querySelector('#product-image').value = newProduct.image;
   products.splice(index, 1);
-  // addProductToLocalStorage('product-name', JSON.stringify(products));
-  // displayProduct();
-
 }

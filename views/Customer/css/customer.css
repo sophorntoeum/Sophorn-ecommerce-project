@@ -34,8 +34,17 @@ input {
     height: 100%;
     width: 80vh;
     margin-left: 10%;
-    /* border: 1px solid rgb(200, 198, 198); */
     border-radius: 5px 5px 5px 5px;
+}
+/* ******image background ****** */
+.picturBackground {
+    padding: 10%;
+    background-image: url(../../assets/images/fashion_.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .form-control {
     width: 25%;
@@ -245,15 +254,6 @@ footer h1 {
 }
 .footer-card2 {
     background: rgb(214, 188, 188);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.picturBackground {
-    padding: 10%;
-    background-image: url(../../assets/images/fashion_.jpg);
-    background-position: center;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
